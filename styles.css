@@ -1,0 +1,57 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+#navbar{
+    background-color:#571F4E;
+}
+#navbar{
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.mat-elevation-z5 {
+    position: relative;
+      z-index:5;
+}
+
+
+ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 18px;
+    margin: 0px;
+}
+mat-icon{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -25px;
+    
+}
+
+#container {
+    position:absolute;
+    left:0;
+    right: 0;
+    height: 90vh;
+    background-color: lightseagreen;
+  }
+
+#sidenav {
+    background-color:#690500;
+    height: 90vh;
+    width:15%;
+}
+

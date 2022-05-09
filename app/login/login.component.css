@@ -1,0 +1,42 @@
+body{
+    position: fixed;
+    background-color: black;
+    height: 90vh;
+}
+
+img {
+    position:fixed;
+    height:92vh;
+    width:173vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin-top: -10px;
+
+}
+#form {
+    position:absolute;
+}
+
+#input {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 140px;
+    height: 46vh;
+    width: 300px;
+    border: 1px solid;
+    
+    
+}
+#input1{
+    width: 230px;
+    margin-left: 35px;
+    margin-top: 30px;
+    
+}
+button{
+    margin-left: 110px;
+    margin-top: 15px;
+}
+

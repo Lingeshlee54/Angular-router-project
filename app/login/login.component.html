@@ -1,0 +1,20 @@
+<body >
+    <img src="https://images.pexels.com/photos/707582/pexels-photo-707582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <div id="input">
+        <mat-form-field appearance="fill" color="primary" id="input1">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter your email address" type="email"  matTooltip="This is email field" matTooltipPosition="right"  #mylog  required   >
+        </mat-form-field><br>
+        <mat-form-field appearance="outline" color="primary" id="input1">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter your Password" type="password" matTooltip="This is password field" matTooltipPosition="right"  required >
+            <mat-hint>! Follow privacy password method</mat-hint>
+        </mat-form-field><br>
+        <a routerLink="user"><button mat-raised-button  color="primary" (click)="loginForm(mylog.value)" >Login</button></a>
+        <router-outlet></router-outlet>
+    </div>
+
+</body>
+
+
+    

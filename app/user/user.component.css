@@ -1,0 +1,33 @@
+body{
+    position: fixed;
+    background-color: black;
+    height: 90vh;
+}
+
+
+
+img {
+    position:fixed;
+    height:95vh;
+    width:173vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin-top: -5px;
+}
+
+#pic{
+   margin-left: 70%;
+   margin-top: 10px;
+   height: 75px;
+   width: 75px;
+}
+#btn1{
+    position: absolute;
+    height:50px;
+    width:85px;
+    margin-left: 830px;
+    margin-top: 20px;
+
+}

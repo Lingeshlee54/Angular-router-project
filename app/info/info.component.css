@@ -1,0 +1,173 @@
+#infobody{
+    position: fixed;
+    background-color: black;
+    height: 95vh;
+    margin-top: -10px;
+}
+#userpic{
+    position:fixed;
+    height:95vh;
+    width:173vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin-top: -5px;
+}
+#content{
+    position: absolute;
+    background-color:white;
+    height: 90vh;
+    width:550px;
+    margin-left:350px;
+    margin-top: 0px;
+    border-radius: 15px;
+    
+}
+
+
+#red{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+#blue{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 15px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    width:500px;
+
+}
+#one{
+    position: absolute;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+
+}
+
+#dtepick{
+    position: absolute;
+    margin-left: 70px;
+
+}
+
+
+#yellow{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 15px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 180px;
+    width:560px;
+}
+#two{
+    position: absolute;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black; 
+}
+#three{
+    position: absolute;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black; 
+
+}
+#radio1{
+    position: absolute;
+    margin-top: 75px;
+    
+}
+mat-radio-button{
+    margin:0px 10px;
+}
+#four{
+    position: absolute;
+    margin-top: 110px;
+}
+#radio2{
+    position: absolute;
+    margin-top: 140px;
+    
+}
+#five{
+    position: absolute;
+    margin-top: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+#radio3{
+    position: absolute;
+    margin-top: 210px;   
+}
+
+
+#green{
+    position: absolute;
+    margin-top: 380px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 10px;
+    width:350px;
+
+}
+mat-panel-title{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+
+    
+}
+#btn{
+    padding: 10px 10px;
+    margin: 0px 15px;
+    border-radius: 20px;
+    
+    
+}
+#whatsapp{
+    height: 15px;
+    width:15px;
+    
+}
+#facebook{
+    height: 15px;
+    width: 15px; 
+}
+#insta{
+    height: 15px;
+    width:15px;
+}
+
+#brown{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 370px;
+
+}
+    
+#but1{
+
+    margin:0px 22px;
+
+}
+#but2{
+
+}
+
+
+
+

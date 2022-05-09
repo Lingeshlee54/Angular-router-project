@@ -1,0 +1,64 @@
+<body id="infobody">
+    <img id="userpic" src="https://media.istockphoto.com/vectors/user-profile-icon-futuristic-digital-abstract-blue-background-vector-id1180385252?k=20&m=1180385252&s=170667a&w=0&h=_y3fvG5VkYeYO8nC9O1HAttj-ZPKsQ-82SujDNEDPiw=">
+    <div id="content">
+        <div id="red">
+            <label>Name : Lingesh</label>
+        </div>
+        <div id="blue">
+            <label id="one">DOB:</label>
+            <mat-form-field appearance="outline" id="dtepick">
+                <input matInput [matDatepicker]="picker" placeholder="Choose a Date" matTooltip="Selcet your DOB">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+        </div>
+        
+        <div id="yellow">
+            <label id="two">Education:</label>
+            <label id="three">12th Group:</label>
+            <mat-radio-group id="radio1" color="primary">
+                <mat-radio-button value="BioMax">BioMax</mat-radio-button>
+                <mat-radio-button value="ComputerScience">ComputerScience</mat-radio-button>
+                <mat-radio-button value="History">History</mat-radio-button>
+                <mat-radio-button value="PureScience">PureScience</mat-radio-button>
+              </mat-radio-group>
+              <label id="four">UG Department:</label>
+              <mat-radio-group id="radio2" color="accent">
+                  <mat-radio-button value="BCA">BCA</mat-radio-button>
+                  <mat-radio-button value="BSC.ComputerScience">BSC.ComputerScience</mat-radio-button>
+                  <mat-radio-button value="BBA">BBA</mat-radio-button>
+                  <mat-radio-button value="B.COM">B.COM</mat-radio-button>
+                </mat-radio-group>
+              <label id="five">Work Details:</label>
+              <mat-radio-group id="radio3" color="warn">
+                <mat-radio-button value="Fresher">Fresher</mat-radio-button>
+                <mat-radio-button value="Experience">Experience</mat-radio-button>
+                <mat-radio-button value="Null">Null</mat-radio-button>
+              </mat-radio-group>
+        </div>
+
+        <div id="green">
+            <mat-accordion>
+                <mat-expansion-panel hideToggle>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      Social Media
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      click Here
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <p><button  id="btn" style="background-color: green;"><img id="whatsapp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"></button> <button id="btn" style="background-color: blue;"><img id="facebook" src="https://pnggrid.com/wp-content/uploads/2021/07/Facebook-Logo-Square-768x768.png"></button> <button id="btn" style="background-color:coral;"><img id="insta" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg"></button></p>
+                </mat-expansion-panel>
+                </mat-accordion>
+        </div>
+        <div id="brown">
+            <button mat-raised-button value="submit" color="primary" id="but1">Save</button><button mat-raised-button value="" color="warn" id="but2">Clear</button>
+        </div>
+        
+            
+    </div>
+    
+
+</body>

@@ -1,0 +1,44 @@
+<mat-toolbar id="navbar" class="mat-elevation-z5" >
+  <p>My Appication</p>
+  <ul>
+    <li><mat-icon>home</mat-icon><a href="#">Home</a></li>
+    <li><mat-icon>search</mat-icon><a href="#">Search</a></li>
+    <li><mat-icon>login</mat-icon><a routerLink="login">Login</a></li>
+    <li><mat-icon>settings</mat-icon><a href="#" >Settings</a></li>
+
+  </ul>
+</mat-toolbar>
+
+<mat-sidenav-container id="container" >
+  <mat-sidenav mode="side" opened class="mat-elevation-z5" id="sidenav">
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <p style="height: 88vh;">
+      <router-outlet></router-outlet>
+      
+    </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
